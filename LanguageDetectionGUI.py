@@ -78,7 +78,7 @@ y = np.array(['Spanish']*len(spanish_tokens_cleaned) + ['Portuguese']*len(portug
 
 
 #Split data into training and test sets 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.33, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.5, random_state=42)
 
 #Vectorization using char bigrams
 vectorizer = CountVectorizer(analyzer= 'char', ngram_range=(2,2))
