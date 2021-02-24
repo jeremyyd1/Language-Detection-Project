@@ -90,7 +90,7 @@ pipeline = Pipeline([
 
 #Fits the pipeline and calculates predictions based on the test set
 pipeline.fit(X_train,y_train)
-y_pred = pipeline.predict(X_test)
+
 
 
 
