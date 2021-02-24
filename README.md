@@ -4,9 +4,7 @@
 This project is a portfolio project based on this tutorial: https://towardsdatascience.com/an-efficient-language-detection-model-using-naive-bayes-85d02b51cfbd
 I decided to put my own spin on the project by using different languages as well as asking for user input to predict the language based on their input. 
 
-I created:
--The GUI using Tkinter
--All of the defined functions and their contents
+I created the GUI using Tkinter and all of the defined functions and their contents, including the regex.
 
 The part adapted from the tutorial is the main training and fitting of the machine learning model that is used to recognize the language. 
 
