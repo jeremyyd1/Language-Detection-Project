@@ -51,6 +51,7 @@ entry_main = tk.Entry(root, width=60)
 entry_main.grid(row=3,column=0, ipady=10, pady=10)
 
 submit_btn = tk.Button(root, text="Submit", command=predict_lang)
+submit_btn.config(font=('helvetica', 12))
 submit_btn.grid(row=4, column=0, ipady=10, pady=10)
 
 
